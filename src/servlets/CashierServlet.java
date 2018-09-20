@@ -45,6 +45,7 @@ public class CashierServlet extends HttpServlet {
     public void doGet(HttpServletRequest request, HttpServletResponse response)
         throws ServletException, IOException {
         // Get the user's session and shopping cart
+    	//Adding Dummy comment
         HttpSession session = request.getSession();
         ResourceBundle messages =
             (ResourceBundle) session.getAttribute("messages");
